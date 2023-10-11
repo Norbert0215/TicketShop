@@ -1,0 +1,42 @@
+:root{
+    --left:hsl(300, 96%, 50%);
+    --right:hsl(207, 96%, 50%);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.myContainer{
+    background-color: aqua;
+    width: 90%;
+    height: 100vh;
+    margin: 0 auto;
+    justify-items: center ;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+}
+.content{
+    display: flex;
+    row-gap: .5rem;
+    flex-direction: column;
+}
+header{
+    background-image: linear-gradient(var(--left), var(--right));
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+video{
+    width: 50vw;
+    border-radius: 20px;
+}
+
+
+
+
