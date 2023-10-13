@@ -30,11 +30,16 @@ header{
     display: flex;
     justify-content: center;
     align-items: center;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    text-shadow: 1px 1px 1px 1px #000;
 }
 
-video{
+iframe{
     width: 50vw;
     border-radius: 20px;
+    height: 100%;
 }
 
 
